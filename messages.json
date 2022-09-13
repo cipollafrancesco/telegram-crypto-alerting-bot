@@ -1,13 +1,16 @@
 {
   "startGreeting": "Hello there\\! 👋\nI'm your Crypto Alert Buddy 📈",
   "availableCommands": "Take a look to all the available commands 👇",
-  "sendNewSignalTitle": "Ok, let's create a new signal 📈",
-  "sendNewSignalCoinPair": "Send me the coin pair you want to track (for example: BTC/USDT)",
-  "sendNewSignalEntryPrice": "Send me the ENTRY PRICE (for example: 10000)",
-  "sendNewSignalTakeProfit": "Send me the TAKE PROFIT PRICE (for example: 11000)",
-  "sendNewSignalStopLoss": "Send me the STOP LOSS PRICE (for example: 9000)",
-  "sendNewSignalLoading": "I'm creating your signal 📈",
+  "sendNewSignalCancel": "Ok, I won't create any new signal 🚫",
+  "sendNewSignalTitle": "Ok, let's create a new signal. 📈\nType /cancel in any moment to stop the creation process!",
+  "sendNewSignalCoinPair": "Send me the coin pair you want to track (example: BTC/USDT)",
+  "sendNewSignalLongOrShort": "Do you want to open a long or a short position?",
+  "sendNewSignalLeverage": "Send me the leverage you want to use (example: 50)",
+  "sendNewSignalEntryPrice": "Send me the ENTRY PRICE (example: 1000)",
+  "sendNewSignalTakeProfit": "Send me the TAKE PROFIT PRICE (example: 1100)",
+  "sendNewSignalStopLoss": "Send me the STOP LOSS PRICE (example: 900)",
+  "sendNewSignalLoading": "I'm creating your signal... 📈",
   "sendNewSignalConfirm": "Ok, I've created a new signal for you 🚀",
   "sendNewSignalError": "Sorry, something went wrong.\nI couldn't create your signal 🙈",
-  "sendNewSignalResume": "Here's a summary of your signal 📈\n\n💰Coin pair: {coinPair}\n🫰Entry price: {entryPrice}\n💸Take profit: {takeProfit}\n☹️Stop loss: {stopLoss}"
+  "sendNewSignalResume": "Here's a summary of your signal: 📈\n\n{leverageType} ({leverage}x)\n\n💰 Coin pair: {coinPair}\n🫰 Entry price: {entryPrice}\n💸 Take profit: {takeProfit}\n☹️️ Stop loss: {stopLoss}"
 }

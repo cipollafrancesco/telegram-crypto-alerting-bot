@@ -16,8 +16,14 @@ const COMMANDS_BUTTONS = Markup.inlineKeyboard([
     [Markup.button.callback("Place New Signal", COMMANDS.SEND_NEW_SIGNAL)]
 ]);
 
+const LEVERAGE_BUTTONS = Markup.inlineKeyboard([
+    [Markup.button.callback("Long", "Long")],
+    [Markup.button.callback("Short", "Short")],
+]);
+
 module.exports = {
     COMMANDS,
     COMMANDS_BUTTONS,
+    LEVERAGE_BUTTONS,
     SCENE_IDS,
 };
