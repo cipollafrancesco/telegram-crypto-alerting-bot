@@ -31,3 +31,7 @@ bot.start((ctx) => startCommandHandler(bot, ctx));
 bot.launch()
     .then(() => console.log("Bot started"))
     .catch((err) => console.log("Bot start error:", err));
+
+// Enable graceful stop
+process.once('SIGINT', () => bot.stop('SIGINT'));
+process.once('SIGTERM', () => bot.stop('SIGTERM'));
