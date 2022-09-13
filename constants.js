@@ -5,9 +5,9 @@ const SCENE_IDS = {
 };
 
 const COMMANDS = {
-    START: "start-btn-command",
-    SHOW_COMMANDS_LIST: "show-commands-list-btn-command",
-    SEND_NEW_SIGNAL: "send-new-signal-btn-command",
+    START: "start",
+    SHOW_COMMANDS_LIST: "show_commands_list",
+    SEND_NEW_SIGNAL: "send_new_signal",
 };
 
 const COMMANDS_BUTTONS = Markup.inlineKeyboard([
